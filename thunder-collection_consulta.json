@@ -1,0 +1,91 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "consulta",
+    "collectionId": "bc97c3ef-1ddb-4413-bc8a-8d44b99efcf2",
+    "dateExported": "2024-07-08T22:09:03.870Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "18073abd-ba86-4c01-a9f8-5f5186d223e2",
+            "colId": "bc97c3ef-1ddb-4413-bc8a-8d44b99efcf2",
+            "containerId": "",
+            "name": "GET",
+            "url": "localhost:3000/video",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-08T21:54:41.786Z",
+            "modified": "2024-07-08T22:05:24.445Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IlBBVUxJTkFAZXhhbXBsZS5jb20iLCJpYXQiOjE3MjA0NzYzMDZ9.iNO3V76BuymUFi1qJyEoGeXZYcgAaTUJeBa3DtvX158"
+                }
+            ]
+        },
+        {
+            "_id": "edf2ac7d-9d86-46cd-8afa-2416b1480aec",
+            "colId": "bc97c3ef-1ddb-4413-bc8a-8d44b99efcf2",
+            "containerId": "",
+            "name": "PUT",
+            "url": "localhost:3000/video/2",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-07-08T21:55:07.014Z",
+            "modified": "2024-07-08T22:00:40.552Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"titulo\": \"POST\",\n    \"descripcion\": \"Descripción 4\",\n    \"fecha_publicacion\": \"2024-06-23\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "c0f951fa-f551-4a67-9112-78703bfc03e4",
+            "colId": "bc97c3ef-1ddb-4413-bc8a-8d44b99efcf2",
+            "containerId": "",
+            "name": "POST",
+            "url": "localhost:3000/video",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-07-08T21:55:22.204Z",
+            "modified": "2024-07-08T21:59:28.282Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"titulo\": \"POST\",\n    \"descripcion\": \"Descripción 4\",\n    \"fecha_publicacion\": \"2024-06-23\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "d18b2153-3c63-4a07-b4fa-2f39ce733649",
+            "colId": "bc97c3ef-1ddb-4413-bc8a-8d44b99efcf2",
+            "containerId": "",
+            "name": "DELETE",
+            "url": "localhost:3000/video/2",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-07-08T21:55:38.604Z",
+            "modified": "2024-07-08T22:05:45.866Z",
+            "headers": []
+        },
+        {
+            "_id": "a2031e85-abc7-4d74-8015-c94ef26847c9",
+            "colId": "bc97c3ef-1ddb-4413-bc8a-8d44b99efcf2",
+            "containerId": "",
+            "name": "POST LOGIN",
+            "url": "localhost:3000/login",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-07-08T22:02:39.340Z",
+            "modified": "2024-07-08T22:05:06.990Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"PAULINA@example.com\",\n  \"pass\": \"C345\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "IeyVZXIBKmCPuihx6Wd2mP38_3WC-y9qfDmv1k4zcDbknPFICeYUMikeKVovwuY2MC9gNxaM5LMY76IhMz9YqQ"
+}
